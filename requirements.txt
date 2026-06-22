@@ -1,0 +1,11 @@
+# Semantic search uses local embeddings (no API key).
+sentence-transformers>=2.7
+requests>=2.31           # real store connectors (e.g. Shopify)
+python-dotenv>=1.0
+
+# --- LLM SEO enrichment (optional; key in .env) ---
+anthropic>=0.39          # default provider
+openai>=1.40             # optional alternative
+
+# Dev
+pytest>=8.0

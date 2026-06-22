@@ -1,0 +1,12 @@
+[
+  {"id": "1001", "title": "Trail Running Shoes", "description": "Lightweight running shoes with grippy outsole.", "price": 119.9, "category": "Footwear", "tags": ["running", "trail", "shoes"]},
+  {"id": "1002", "title": "Wireless Noise-Cancelling Headphones", "description": "Over-ear headphones with active noise cancellation and 30h battery.", "price": 199.0, "category": "Electronics", "tags": ["audio", "wireless", "headphones"]},
+  {"id": "1003", "title": "Ceramic Coffee Mug 350ml", "description": "Matte ceramic mug, microwave and dishwasher safe.", "price": 14.5, "category": "Home & Kitchen", "tags": ["coffee", "mug", "kitchen"]},
+  {"id": "1004", "title": "Yoga Mat Pro", "description": "Non-slip 6mm yoga mat with carrying strap.", "price": 39.9, "category": "Fitness", "tags": ["yoga", "mat", "fitness"]},
+  {"id": "1005", "title": "14-inch Ultrabook Laptop", "description": "Thin and light laptop, 16GB RAM, 512GB SSD.", "price": 1099.0, "category": "Electronics", "tags": ["laptop", "computer", "ultrabook"]},
+  {"id": "1006", "title": "Stainless Steel Water Bottle 1L", "description": "Insulated bottle keeps drinks cold for 24h.", "price": 27.0, "category": "Outdoors", "tags": ["bottle", "hydration", "outdoors"]},
+  {"id": "1007", "title": "Mechanical Keyboard RGB", "description": "Hot-swappable mechanical keyboard with RGB backlight.", "price": 89.0, "category": "Electronics", "tags": ["keyboard", "gaming", "mechanical"]},
+  {"id": "1008", "title": "Organic Green Tea (50 bags)", "description": "Premium loose-leaf green tea in compostable bags.", "price": 12.0, "category": "Grocery", "tags": ["tea", "green tea", "organic"]},
+  {"id": "1009", "title": "Running Socks (3 pack)", "description": "Breathable cushioned socks for running.", "price": 18.0, "category": "Footwear", "tags": ["running", "socks", "apparel"]},
+  {"id": "1010", "title": "Smart LED Desk Lamp", "description": "Dimmable desk lamp with USB charging port.", "price": 45.0, "category": "Home & Kitchen", "tags": ["lamp", "desk", "led"]}
+]
