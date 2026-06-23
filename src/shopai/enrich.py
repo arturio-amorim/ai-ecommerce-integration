@@ -66,9 +66,14 @@ def _call(prompt: str, settings: Settings) -> str:
 
     from openai import OpenAI
 
-    client = OpenAI()
+    if settings.llm_provider == "ollama":
+        client = OpenAI(base_url=settings.ollama_base_url, api_key="ollama")  # local, free
+        model = settings.ollama_model
+    else:
+        client = OpenAI()
+        model = settings.openai_model
     resp = client.chat.completions.create(
-        model=settings.openai_model,
+        model=model,
         temperature=0.4,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
